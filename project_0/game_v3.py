@@ -18,7 +18,7 @@ def random_predict(number: int = 1) -> int:
 
     left = 1
     right = 100
-    while True: #Поэтапно проверяем число, лежащее иежду 
+    while True:  # Поэтапно проверяем число, лежащее в середине оставшихся значений
         count += 1
         predict_number = (left+right)//2
         if predict_number == number:
